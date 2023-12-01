@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+$main-color : cyan;
+$secondary-color : #0dde80;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+
+    overflow-x: hidden;
+
+    
+
+}
+
+main{
+    height: 100%;
+    background: radial-gradient(circle, rgba(0,212,255, 0.15), transparent 300px);
+
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+
+}
