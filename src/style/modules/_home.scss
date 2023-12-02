@@ -109,16 +109,43 @@
         &-pic{
             display: flex;
             justify-content: center;
-            align-items: end;
+            align-items: center;
             flex-direction: column;
 
-            img{
+            img:nth-child(1){
+                width: 250px;
+                // z-index: ;
+
+                margin-right: 1.5px;
+
+                position: absolute;
+
+            }
+
+            img:nth-child(3){
+                width: 200px;
+                z-index: 10;
+
+                margin-top: 70px;
+                margin-right: 30px;
+
+                position: absolute;
+
+            }
+
+            img:nth-child(2){
                 width: 180px;
                 height: 300px;
 
+                position: relative;
+
+                z-index: 1;
+
+
                 border-radius: 200px;
                 object-fit: cover;
-                border: 1px solid rgb(0, 0, 0);
+                border: 2px solid root.$secondary-color;
+
             }
         }
 
