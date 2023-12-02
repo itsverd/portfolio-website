@@ -9,6 +9,13 @@
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
 
     <script src="https://kit.fontawesome.com/c47f247d9e.js" crossorigin="anonymous"></script>
+
+    <script type='text/javascript'>
+        $('.hias img').bind('contextmenu', function(e){
+            return false;
+        });
+        </script>
+
 </head>
 <body>
 
@@ -49,36 +56,34 @@
                 </div>
     
                 <div class="about-pic">
-                    <img src="src/img/h-belakang.png" alt="">
+                    <img class="hias" src="src/img/h-belakang.png" alt="">
                     <img src="src/img/testy3-1.png" alt="John Doe">
-                    <img src="src/img/h-depan.png" alt="">
+                    <img class="hias" src="src/img/h-depan.png" alt="">
                 </div>
             </article>
         </section>
 
-        <section class="experience">
-            <div class="about-text">
-                <div class="name">My Name is</div>
-                <h1>John Doe</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea soluta cumque rem, ducimus at necessitatibus aliquam magnam culpa ratione laudantium.</p>
-            </div>
+        <section class="service">
+            <h2>My Sevices</h2>
 
-            <div class="about-pic">
-                <img src="src/img/testy3-1.png" alt="John Doe">
+            <div class="card-container">
+                <div class="card">
+                    <i class="ph ph-crown-simple"></i>
+                    <h3>UI/UX Designer</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam minus voluptatum veniam! Sapiente, corporis debitis? Vero soluta fugiat nulla optio.</p>
+                </div>
+                <div class="card">
+                    <i class="ph ph-camera"></i>
+                    <h3>Photography</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam minus voluptatum veniam! Sapiente, corporis debitis? Vero soluta fugiat nulla optio.</p>
+                </div>
+                <div class="card">
+                    <i class="ph ph-paint-brush-broad"></i>
+                    <h3>Graphic Designer</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam minus voluptatum veniam! Sapiente, corporis debitis? Vero soluta fugiat nulla optio.</p>
+                </div>
             </div>
         </section>
-        <section class="about">
-            <div class="about-text">
-                <div class="name">Hello iam</div>
-                <h1>John Doe</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea soluta cumque rem, ducimus at necessitatibus aliquam magnam culpa ratione laudantium.</p>
-            </div>
-
-            <div class="about-pic">
-                <img src="src/img/testy3-1.png" alt="John Doe">
-            </div>
-        </section>
-
 
 
 
@@ -97,6 +102,6 @@
             <p>&copy; <script>document.write(new Date().getFullYear())</script> Made by <a href="https://itsverd.com">verD</a></p>
         </div>
     </footer>
-    
+
 </body>
 </html>

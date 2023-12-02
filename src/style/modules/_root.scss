@@ -27,3 +27,9 @@ main{
     background-position: center center;
 
 }
+
+.hias {
+    user-select: none; 
+    -webkit-user-select: none; 
+    pointer-events: none;
+}
