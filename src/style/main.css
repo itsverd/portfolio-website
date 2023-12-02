@@ -343,7 +343,8 @@ h2 {
   max-width: 350px;
   box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.1);
   background-color: white;
-  border-radius: 20px;
+  border-radius: 12px;
+  cursor: pointer;
 }
 .portfolio .card-container .card img {
   width: 100%;
