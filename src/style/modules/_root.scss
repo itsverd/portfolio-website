@@ -2,6 +2,7 @@
 
 $main-color : cyan;
 $secondary-color : #0dde80;
+$secondary-hover: darken($secondary-color , 10%);
 
 *{
     margin: 0;
@@ -13,9 +14,6 @@ body{
     background-color: white;
 
     overflow-x: hidden;
-
-    
-
 }
 
 main{
